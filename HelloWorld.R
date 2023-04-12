@@ -65,8 +65,15 @@ print(1+1.1)
 #exercise 3:
 # see if you can correct your variable assignment so that these numbers add together!
 
+string<-"message"
+integer<-1
+float<-1.1
+
 # exercise 4: chaining functions together
 # here, you have printed them to the screen but have not combined them. see if you can re-use code in lines 40 and 41 to use the paste() function to combine them AND print them to the screen
 print(string)
 print(integer)
 print(float)
+
+print(paste(name,1))
+print(paste(name,1.1))
