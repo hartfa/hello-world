@@ -40,7 +40,7 @@ message <- paste("Great Job,",name,"!")
 print(paste(name,1))
 print(paste(name,1.1))
 
-# exercise 2: assigning variables and passing them into a built in function
+# exercise 2: assigning variables with different data types
 
 # now, try assigning some new variables to other values below (being sure to assign the correct type of data)
 # first, remember to un-comment the variables I've listed for you below by deleting the '#' before each variable
@@ -52,10 +52,21 @@ print(paste(name,1.1))
 
 # now, see if you can can combine those three variables (string, integer, float) using the paste() function and print using the print() function:
 
-string <- "message"
-integer <- "1"
-float <- "1.1"
+string <- "message" # this is a string, correct
+integer <- "1" # this is also a string but should be an integer meaning a number e.g. 1 without quotes
+float <- "1.1" # this is also a string but should be a float meaning a number e.g. 1,1 without quotes
 
+# the reason for different datatypes is becasue we can do different things with different data types
+# for instance, we can add integers and strings
+print(1+1.1)
+# however see, what happens when you try to add your variables that you defined as strings
+(integer+float)
+
+#exercise 3:
+# see if you can correct your variable assignment so that these numbers add together!
+
+# exercise 4: chaining functions together
+# here, you have printed them to the screen but have not combined them. see if you can re-use code in lines 40 and 41 to use the paste() function to combine them AND print them to the screen
 print(string)
 print(integer)
 print(float)
