@@ -69,6 +69,8 @@ string<-"message"
 integer<-1
 float<-1.1
 
+(integer+float)
+
 # exercise 4: chaining functions together
 # here, you have printed them to the screen but have not combined them. see if you can re-use code in lines 40 and 41 to use the paste() function to combine them AND print them to the screen
 print(string)
@@ -77,3 +79,4 @@ print(float)
 
 print(paste(name,1))
 print(paste(name,1.1))
+print(paste(name, integer+float))
