@@ -52,5 +52,10 @@ print(paste(name,1.1))
 
 # now, see if you can can combine those three variables (string, integer, float) using the paste() function and print using the print() function:
 
+string <- "message"
+integer <- "1"
+float <- "1.1"
 
-
+print(string)
+print(integer)
+print(float)
