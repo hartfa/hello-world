@@ -24,6 +24,33 @@ name <- "Grace"
 
 # we can also pass variables as arguments to the print() function
 
-# exercise 1: insated if printing "Hello World", use print() to pring the variable `name`
+# exercise 1: instead if printing "Hello World", use print() to print the variable `name`
 
 print(name)
+
+# Super!
+
+# lesson 3: datatypes and function chaining
+
+# we can use R's built in paste() function to combine, or concatenate, the variable `name` with other strings
+# see if you can run this code and see the output
+message <- paste("Great Job,",name,"!")
+
+# we can also use the paste() function to concatenate integers(whole numbers) and floats (numbers with decimals) with strings
+print(paste(name,1))
+print(paste(name,1.1))
+
+# exercise 2: assigning variables and passing them into a built in function
+
+# now, try assigning some new variables to other values below (being sure to assign the correct type of data)
+# first, remember to un-comment the variables I've listed for you below by deleting the '#' before each variable
+# otherwise, the code will not run
+
+#string <- 
+#integer <- 
+#float <- 
+
+# now, see if you can can combine those three variables (string, integer, float) using the paste() function and print using the print() function:
+
+
+
