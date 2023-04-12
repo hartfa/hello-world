@@ -26,3 +26,4 @@ name <- "Grace"
 
 # exercise 1: insated if printing "Hello World", use print() to pring the variable `name`
 
+print(name)
