@@ -116,3 +116,11 @@ sumTwoNumbers(1,1.1)
 # see if you can refactor (improve) my function definition by making it return a value
 # then, multiply this return value by 10
 
+sumTwoNumbers <- function(integer,float) {
+  message = "the result is: "
+  result = integer+float
+  print(paste0(message,result))
+  return(result*10)
+}
+
+sumTwoNumbers(1,1.1)
