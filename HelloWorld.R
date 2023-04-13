@@ -80,3 +80,14 @@ print(float)
 print(paste(name,1))
 print(paste(name,1.1))
 print(paste(name, integer+float))
+
+#excellent
+
+# now, i'd like you to put it all together
+
+# exercise 5: create your own function
+# google how to define a function in R
+# this function should be named "sumTwoNumbers" and take two arguments (an integer and a float)
+# it should print the result of adding the integer and the float along with a message, a string, that says "the result is:" and then the result
+# hint: after you define the function and run it it will only initialize the function you've created
+# you will need to call the function by its name and pass in the arguments
