@@ -124,3 +124,15 @@ sumTwoNumbers <- function(integer,float) {
 }
 
 sumTwoNumbers(1,1.1)
+
+# great job! a more common use case would be to store the returned value inside of a variable
+result <- sumTwoNumbers(1,1.1)
+
+# then, we can use the result by whatever we would like, later on in our script:
+
+# for example, we could multiply it again by 10
+print(result*10)
+
+# or use it in a function, like the one we defined earlier:
+sumTwoNumbers(result,result)
+
