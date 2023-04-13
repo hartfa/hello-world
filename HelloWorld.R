@@ -91,3 +91,9 @@ print(paste(name, integer+float))
 # it should print the result of adding the integer and the float along with a message, a string, that says "the result is:" and then the result
 # hint: after you define the function and run it it will only initialize the function you've created
 # you will need to call the function by its name and pass in the arguments
+
+sumTwoNumbers<-function(integer,float) {
+  integer + float
+}
+sumTwoNumbers(integer=1, float=1.1)
+print(paste("the result is:", sumTwoNumbers(integer=1, float=1.1)))
