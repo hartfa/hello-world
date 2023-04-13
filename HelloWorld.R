@@ -92,8 +92,27 @@ print(paste(name, integer+float))
 # hint: after you define the function and run it it will only initialize the function you've created
 # you will need to call the function by its name and pass in the arguments
 
+
+# this works! very good
 sumTwoNumbers<-function(integer,float) {
   integer + float
 }
+
 sumTwoNumbers(integer=1, float=1.1)
 print(paste("the result is:", sumTwoNumbers(integer=1, float=1.1)))
+
+# to make your code more concise and easier to read, you can stuff the messaage, the result, and the print statement inside of hte function
+sumTwoNumbers <- function(integer,float) {
+  message = "the result is: "
+  result = integer+float
+  print(paste0(message,result))
+}
+
+sumTwoNumbers(1,1.1)
+
+# exercise 6: return values
+# as written, both of our functions are FRUITLESS: they don't return a value
+# returns are useful because we can consume the results in our code, later (just like we can use variables, later)
+# see if you can refactor (improve) my function definition by making it return a value
+# then, multiply this return value by 10
+
